@@ -1,10 +1,10 @@
 <?php
 
-$connection = mysqli_connect('localhost','root', '', 'book_db');
+$connection = mysqli_connect('localhost','your_db_username','your_db_password','your_db_name');
 
 if(isset($_POST['send'])){
     $name = $_POST['name'];
-    $email = $_post['email'];
+    $email = $_Post['email'];
     $phone = $_POST['phone'];
     $address = $_POST['address'];
     $location = $_POST['location'];
