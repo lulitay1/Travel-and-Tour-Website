@@ -4,7 +4,7 @@ $connection = mysqli_connect('localhost','your_db_username','your_db_password','
 
 if(isset($_POST['send'])){
     $name = $_POST['name'];
-    $email = $_Post['email'];
+    $email = $_POST['email'];
     $phone = $_POST['phone'];
     $address = $_POST['address'];
     $location = $_POST['location'];
